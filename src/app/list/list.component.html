@@ -1,0 +1,33 @@
+<!-- <p>list works!</p>
+<div>
+    <ul *ngFor="let user of url">
+        <li>Name :{{user.name}}</li>
+    </ul>
+</div> -->
+
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Address</th>
+        <th scope="col">Phone</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of url">
+        <th>{{user.id}}</th>
+        <td>{{user.name}}</td>
+        <td>{{user.age}}</td>
+        <td>{{user.address}}</td>
+        <td>{{user.phone}}</td>
+
+        
+      </tr>
+      
+    </tbody>
+  </table>

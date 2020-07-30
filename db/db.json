@@ -1,0 +1,25 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 32,
+      "address": "Noida Sector,50",
+      "phone": 12345678
+    },
+    {
+      "id": 2,
+      "name": "Mary",
+      "age": 64,
+      "address": "White Field,45",
+      "phone": 12986985
+    },
+    {
+      "name": "Rony",
+      "age": 4,
+      "address": "Skyline Apartment ,15B",
+      "phone": 45686456,
+      "id": 3
+    }
+  ]
+}
